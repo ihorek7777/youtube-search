@@ -9,7 +9,7 @@ let MovieList = ({ items }) => {
 		<ul className="movie-list">
 			{
 				items.map((elem, index) => 
-					<Link to={`/movie/${elem.youTubeId}`} key={index} >
+					<Link to={`${window.location.pathname}movie/${elem.youTubeId}`} key={index} >
 					<li className="movie-list__elem">
 						<img src={elem.thumbnailsUrl} alt="thumbnail"/>
 						<p>{elem.title}</p>

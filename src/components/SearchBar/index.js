@@ -14,6 +14,7 @@ class SearchBar extends Component {
 	parseUrl() {
 		let url = window.location.search;
 
+		/*
 		if (url === '' && window.location.pathname.slice(1) !== '') {
 			let query = window.location.pathname.slice(1);
 
@@ -21,6 +22,7 @@ class SearchBar extends Component {
 
 			return query;
 		}
+		*/
 		
 		url = url.split('=');
 
@@ -35,9 +37,9 @@ class SearchBar extends Component {
 
 	componentWillMount() {
 		// if /movie/${movieID} -> will not execute
-		if (window.location.pathname.split('/').length < 3) {
+		//if (window.location.pathname.split('/').length < 3) {
 			this.props.dispatch(fetchMovies(this.parseUrl()));
-		}
+		//}
 	}
 
 	render() {
