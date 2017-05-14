@@ -17,7 +17,9 @@ class Movie extends Component {
 			<div className="movie"
 				onClick={() => {
 					window.history.back();
-					setTimeout(() => {window.location.assign(window.location.href);}, 100);
+					// it need for restart previous search-query after reload page when movie opened
+					// but on github pages does not need, because after reload page with movies opened will be 404
+					//setTimeout(() => {window.location.assign(window.location.href);}, 100); 
 				}}>
 				<div className="background" />
 				<YouTube 

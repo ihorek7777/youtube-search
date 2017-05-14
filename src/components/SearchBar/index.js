@@ -36,10 +36,7 @@ class SearchBar extends Component {
 	}
 
 	componentWillMount() {
-		// if /movie/${movieID} -> will not execute
-		//if (window.location.pathname.split('/').length < 3) {
-			this.props.dispatch(fetchMovies(this.parseUrl()));
-		//}
+		this.props.dispatch(fetchMovies(this.parseUrl()));
 	}
 
 	render() {
