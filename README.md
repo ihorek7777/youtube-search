@@ -1,7 +1,7 @@
-<pre>
-<h1>YouTube Search</h1>
 
-<h6>demo: <a href="https://ihorek7777.github.io/youtube-search">YouTube Search API</a></h6>
+<h1><a href="https://ihorek7777.github.io/youtube-search">YouTube Search</a></h1>
+
+<pre>
   <ul>
     <li>git clone https://github.com/ihorek7777/youtube-search.git</li>
     <li>cd youtube-search</li>
