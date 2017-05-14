@@ -1,0 +1,36 @@
+.movie-list {
+	padding: 0;
+	list-style: none;
+}
+
+.movie-list__elem {
+	background-color: #eee;
+
+	width: 48%;
+	height: 200px;
+
+	margin: 1%;
+	padding: 0%;
+
+	float: left;
+	border-radius: 10px;
+
+	color: black;
+
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.movie-list__elem:hover {
+	background-color: hsl(3, 81.8%, 49.6%);
+	color: white;
+}
+
+
+.movie-list__elem img {
+	margin-top: 20px;
+}
+
+.movie-list__elem p {
+	margin-left: 5px;
+	margin-right: 5px;
+}
