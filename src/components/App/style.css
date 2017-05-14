@@ -1,6 +1,22 @@
+@media screen and (min-width: 900px) {
+	.app {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.app {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.app {
+		width: 95%;
+	}
+}
+
 .app {
 	margin: auto;
 	text-align: center;
-
-	width: 50%;
 }
